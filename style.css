@@ -1,17 +1,176 @@
 * {
-    margin: 0;
+    margin: 0%;
     padding: 0%;
-    font-family: "Fira Sans Condensed", serif;
-    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace font-weight: 100;
     font-style: normal;
-}
-
 }
 
 .section-padding {
     padding: 100px 0;
 }
 
-.parent2{
+.section-padding2 {
+    padding: 100px 0 0 0;
+}
+
+.parent2 {
     display: flex;
+}
+
+.navbar-brand {
+    position: relative;
+    left: 100px;
+}
+
+.login-link {
+    text-decoration: none;
+    margin: 0px 150px 0px 90px;
+}
+
+.carousel-caption {
+    position: relative;
+    top: 150px;
+}
+
+.filter-container {
+    display: flex;
+    gap: 30px;
+    padding: 15px;
+    margin-bottom: 25px;
+    background-color: white;
+}
+
+.filter-container input {
+    width: 200px;
+    padding: 15px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+
+.filter-container .drpdn select {
+    border: none;
+    height: 40px;
+    border-left: 1px solid gray;
+    padding: 8px 60px 0px 30px;
+    outline: none;
+    color: rgb(73, 71, 71);
+}
+
+.drpdn {
+    margin: 5px 150px 0px 0px;
+}
+
+.filter-container.my-button {
+    position: relative;
+    right: 90px;
+}
+
+.filter-container .my-button:hover {
+    color: black !important;
+    border: 2px solid rgb(32, 154, 182) !important;
+    background-color: white !important;
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 110px;
+}
+
+.grid-item {
+    border: none;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.grid-item img {
+    width: 50px;
+}
+
+.number {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.box {
+    display: flex;
+}
+
+.box div p {
+     /* margin-right: 190px; */
+     margin-right: 170px;
+    
+}
+
+.card {
+    box-shadow: 0px 0px 40px rgb(192, 189, 189);
+}
+
+.status {
+    margin: 10px 0px 10px 10px;
+    display: flex;
+}
+
+.status img {
+    width: 10%;
+    height: 40px;
+    border-radius: 140px;
+    margin: 0 15px 0 0;
+}
+
+.status div {
+    margin-left: 0;
+}
+
+.name {
+    margin: 0;
+    color: gray;
+}
+
+.expert {
+    color: gray;
+    font-size: small;
+}
+
+.blog-second-col{
+    display: flex;
+    
+}
+
+.para3{
+    font-size: smaller;
+    /* margin-bottom: 40px; */
+}
+
+.blog-maindiv{
+    padding-bottom: 50px;
+}
+
+.input-email{
+    /* position: relative; */
+    /* left: 40px; */
+    padding-right: 200px;
+}
+
+.main-ul{
+    display: flex;
+}
+
+.main-ul div ul {
+    list-style-type: none;
+}
+
+.main-ul div ul li a{
+    text-decoration: none;
+    
+}
+
+.main-ul div ul li a:hover{
+    color: rgb(15, 22, 24);
+}
+
+.icon-div{
+    margin-left: 280px;
 }

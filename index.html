@@ -2,8 +2,11 @@
 <html lang="en">
 
 <head>
+    <!-- Meta Tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- External Style Sheet -->
     <link rel="stylesheet" href="./style.css">
 
     <!-- Bootstrap Css link -->
@@ -91,29 +94,35 @@
             <div class="carousel-item active">
                 <img src="./images/big_image_2.jpg" class="d-block" alt="...">
                 <div class="carousel-caption d-md-block">
-                    <h1 class="pb-5 heading1">Find Oneline Courses That Suits You</h1>
-                    <div class="filter-container">
-                        <input type="text" placeholder="Keyword search...">
-                        <div class="drpdn">
-                            <select>
-                                <option value="">Category Course</option>
-                                <option value="webdev">Laravel</option>
-                                <option value="graphic">Php</option>
-                                <option value="webdev">Python</option>
-                                <option value="graphic">JavaScript</option>
-                            </select>
-                            <select>
-                                <option value="">Difficulty</option>
-                                <option value="beginner">Beginner</option>
-                                <option value="intermediate">Intermediate</option>
-                                <option value="advanced">Advanced</option>
-                            </select>
+                    <h1 class="pb-4 heading1">Find Online Courses That Suits You</h1>
+                    <div class="container mb-4">
+                        <div class="row filter-container ">
+                            <div class="col-lg-3 col-sm-12"> <input type="text" placeholder="Keyword search..."></div>
+                            <div class="col-lg-3 col-sm-12">
+                                <select class="border-0 pt-3 pr-5 ms-0 py-3 w-100">
+                                    <option value="Category Course">Category Course</option>
+                                    <option value="webdev">Laravel</option>
+                                    <option value="graphic">Php</option>
+                                    <option value="webdev">Python</option>
+                                    <option value="graphic">JavaScript</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-3 col-sm-12">
+                                <select class="border-0 pt-3 pr-5 py-3 outline-0 w-100">
+                                    <option value="">Difficulty</option>
+                                    <option value="beginner">Beginner</option>
+                                    <option value="intermediate">Intermediate</option>
+                                    <option value="advanced">Advanced</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-1 col-sm-12">
+                                <button
+                                    class="my-button bg-info text-white mt-2 p-1  ps-3 pe-4 text-center border-0 mb-3 w-100 rounded-1">Search</button>
+                            </div>
                         </div>
-                        <button class=" my-button bg-info text-white pe-lg-4 p-lg-1 ps-lg-4 pe-sm-5 p-sm-1 ps-sm-5 border-0 rounded-1 ">Search</button>
                     </div>
-
-                    <p class="pb-5">We have more than 500 courses to improve your skills</p>
-                    <p><a href="#" class="btn btn-info text-white p-3 pe-5 ps-5">Register Now</a></p>
+                    <p class="pb-lg-5 pb-sm-3">We have more than 500 courses to improve your skills</p>
+                    <p><a href="#" class="btn btn-info text-white p-3 pe-5 ps-5 my-button">Register Now</a></p>
                 </div>
             </div>
         </div>
@@ -131,7 +140,7 @@
                         velit deleniti nihil ad deserunt rerum incidunt nulla nemo eius molestiae architecto
                         beatae
                         asperiores doloribus animi.</p><br>
-                    <p><a href="#" class="btn btn-info p-2 ps-4 pe-4"> Read More</a></p>
+                    <p><a href="#" class="btn btn-info p-2 ps-4 pe-4 my-button"> Read More</a></p>
                 </div>
                 <div class=" col-lg-6 col-sm-12">
                     <img src="./images/img_1.jpg" class="img-fluid"><br>
@@ -151,7 +160,7 @@
                         <h4>Knowledge is power</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit mess.
                         </p>
-                        <p><a href="#" class="btn btn-white text-info"> READ MORE <span><i
+                        <p><a href="#" class="btn btn-white text-info my-button"> READ MORE <span><i
                                         class="bi bi-arrow-right-short text-info"></i></span></a></p>
                     </div>
                 </div>
@@ -163,7 +172,7 @@
                         <h4>Senior High School</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit mess.
                         </p>
-                        <p><a href="#" class="btn btn-white text-info"> READ MORE <span><i
+                        <p><a href="#" class="btn btn-white text-info my-button"> READ MORE <span><i
                                         class="bi bi-arrow-right-short text-info"></i></span></a></p>
                     </div>
                 </div>
@@ -176,7 +185,7 @@
                         </h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit mess.
                         </p>
-                        <p><a href="#" class="btn btn-white text-info"> READ MORE <span><i
+                        <p><a href="#" class="btn btn-white text-info my-button"> READ MORE <span><i
                                         class="bi bi-arrow-right-short text-info"></i></span></a></p>
                     </div>
                 </div>
@@ -184,11 +193,11 @@
             <div class="col-lg-3 col-sm-12">
                 <div class="card1 border-0">
                     <div class="card-body">
-                        <img src="./highschool.webp" width="25%" alt=""><br><br>
+                        <img src="./images/highschool.webp" width="25%" alt=""><br><br>
                         <h4>Unmatched Proffessor</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit mess.
                         </p>
-                        <p><a href="#" class="btn btn-white text-info"> READ MORE <span><i
+                        <p><a href="#" class="btn btn-white text-info my-button"> READ MORE <span><i
                                         class="bi bi-arrow-right-short text-info"></i></span></a></p>
                     </div>
                 </div>
@@ -264,8 +273,8 @@
                         <h2 class="text-info fw-light heading">Popular Courses</h2>
                         <p class="fs-4 "> Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit qui neque
                             sint evenie tempore sapiente.
-                        <p><a href="#" class="btn btn-info p-2 ps-4 pe-4 text-white">
-                                <span><i class="bi bi-book text-white"></i></span>
+                        <p><a href="#" class="btn btn-info p-2 ps-4 pe-4 text-white my-button">
+                                <span><i class="bi bi-book"></i></span>
                                 Enroll Now</a></p><br><br><br>
                     </div>
                     <div class="container">
@@ -279,6 +288,18 @@
                                             consectetur adipisicing
                                             elit. Nisi quia maxime aut
                                             amet consectetur.</p>
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <p class="text-info">2,219/6000</p>
+                                                </div>
+                                                <div class="col-3">
+                                                    <p class="text-secondary ms-3"><strike>$23</strike></p>
+                                                </div>
+                                                <div class="col-3"><button
+                                                        class="bg-info text-white border-0 rounded-2 p-1 ps-2 pe-2">Free</button>
+                                                </div>
+                                            </div>
+    
                                     </div>
                                 </div>
 
@@ -292,6 +313,18 @@
                                             consectetur adipisicing
                                             elit. Nisi quia maxime aut
                                             amet consectetur.</p>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <p class="text-info">2,219/6000</p>
+                                            </div>
+                                            <div class="col-3">
+                                                <p class="text-secondary ms-3"><strike>$23</strike></p>
+                                            </div>
+                                            <div class="col-3"><button
+                                                    class="bg-info text-white border-0 rounded-2 p-1 ps-2 pe-2">Free</button>
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
 
@@ -305,6 +338,18 @@
                                             consectetur adipisicing
                                             elit. Nisi quia maxime aut
                                             amet consectetur.</p>
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <p class="text-info">2,219/6000</p>
+                                                </div>
+                                                <div class="col-3">
+                                                    <p class="text-secondary ms-3"><strike>$23</strike></p>
+                                                </div>
+                                                <div class="col-3"><button
+                                                        class="bg-info text-white border-0 rounded-2 p-1 ps-2 pe-2">Free</button>
+                                                </div>
+                                            </div>
+    
                                     </div>
                                 </div>
                             </div>
@@ -390,7 +435,8 @@
                 <div class="section-padding">
                     <div>
                         <h2 class="text-info fw-light heading">Blog</h2>
-                        <p class="text-secondary fs-4"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit qui
+                        <p class="text-secondary fs-4"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Suscipit qui
                             neque sint
                             eveniettempore
                             sapiente.</p>
@@ -431,7 +477,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <br>
                         <div class="blog-second-col">
                             <div class="col-3">
@@ -504,7 +550,7 @@
                     <br><br>
                     <div class="bg-white mb-5 rounded-1">
                         <input type="text" placeholder="Enter Email" class="m-3 bg-white border-0 input-email"> <button
-                            class="text-white bg-info ps-3 me-auto p-2 pe-3 rounded-1 border-0 ">Subscribe</button>
+                            class="text-white bg-info ps-3 me-auto p-2 pe-3 rounded-1 border-0 my-button ">Subscribe</button>
                     </div>
                 </div>
             </div>
@@ -515,7 +561,8 @@
         <div class="row">
             <div class="col-lg-3 col-sm-12 ">
                 <h3 class="fw-light fs-1">University</h3>
-                <p class="text-secondary mb-5">Perferendis eum illum voluptatibus dolore tempora consequatur minus asperiores
+                <p class="text-secondary mb-5">Perferendis eum illum voluptatibus dolore tempora consequatur minus
+                    asperiores
                     temporibus.</p>
             </div>
             <div class="col-lg-2 col-sm-12">
@@ -605,4 +652,4 @@
         crossorigin="anonymous"></script>
 </body>
 
-</html>
+</htm

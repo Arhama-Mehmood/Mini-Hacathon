@@ -67,26 +67,6 @@
     border: none;
     font-size: 16px;
 }
-/* 
-.filter-container  select {
-    border: none;
-    padding: 15px;
-    height: 40px;
-    border-left: 1px solid gray;
-    padding: 8px 60px 0px 30px;
-    outline: none;
-    color: rgb(73, 71, 71);
-}
-
-.drpdn {
-    margin: 5px 150px 0px 0px;
-}
-
-.filter-container.my-button {
-    position: relative;
-    right: 90px;
-} */
-
 .filter-container .my-button:hover {
     color: black !important;
     border: 2px solid rgb(32, 154, 182) !important;

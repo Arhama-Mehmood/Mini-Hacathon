@@ -72,6 +72,12 @@
     border: 2px solid rgb(32, 154, 182) !important;
     background-color: white !important;
 }
+
+.dropdown1{
+    outline: none;
+    background-color: white;
+}
+
 .my-button:hover {
     color: black !important;
     border: 2px solid rgb(32, 154, 182) !important;
